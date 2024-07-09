@@ -2,8 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Frontend Mentor QR code component challenge"
+    />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Luam Belay" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -11,42 +16,25 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
-
   <body>
-    <main class="container" role="main">
-      <div role="mainDoc" class="mainDoc">
-        <div role="section1" class="section1">
-          <div role="qrCode" class="qrCode">
-            <img alt="qrCodeImage" src="./images/image-qr-code.png" />
-          </div>
+    <main>
+      <article class="qr-code-card">
+        <img
+          src="./images/image-qr-code.png"
+          alt="QR code leading to Frontend Mentor website"
+        />
+        <div class="description">
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
         </div>
-        <div role="section2" class="section2">
-          <header>
-            <h1>Improve your front-end skills by building projects</h1>
-          </header>
-          <div role="paragraph" class="paragraph">
-            <p>
-              Scan QR to visit frontend mentor and take your coding skill to
-              next level
-            </p>
-          </div>
-        </div>
-      </div>
+      </article>
     </main>
   </body>
 </html>

@@ -1,0 +1,24 @@
+{
+	"name": "qr-code-component",
+	"version": "1.0.0",
+	"description": "Frontend Mentor QR code component challenge ",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npx -y live-server@latest --port=3000"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/LuamB/qr-code-component.git"
+	},
+	"keywords": [
+		"html",
+		"css"
+	],
+	"author": "LuamB",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/LuamB/qr-code-component/issues"
+	},
+	"homepage": "https://github.com/LuamB/qr-code-component#readme"
+}
